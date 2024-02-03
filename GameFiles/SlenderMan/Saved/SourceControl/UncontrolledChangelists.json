@@ -8,7 +8,17 @@
 				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Level/Test.umap",
 				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Blueprints/GameMode.uasset",
 				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Player.uasset",
-				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Stamina.uasset"
+				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Stamina.uasset",
+				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/FlashlightTexture.uasset",
+				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Flashlgiht/FlashlightTexture.uasset",
+				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Flashlgiht/FlashlightTexture_Mat.uasset",
+				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Flashlgiht/Flashlight.uasset",
+				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Flashlgiht/Flashlight_Act.uasset",
+				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Flashlgiht/BPI_Flashlight.uasset",
+				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Flashlgiht/BP_Flashlight_Act.uasset",
+				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/BP_Player.uasset",
+				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Player/BP_Player.uasset",
+				"Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Flashlgiht/BP_Flashlight.uasset"
 			]
 		}
 	]

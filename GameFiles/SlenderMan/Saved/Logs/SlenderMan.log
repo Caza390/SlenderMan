@@ -4456,3 +4456,978 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.02.04-16.00.19:452][570]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
 [2024.02.04-16.00.19:460][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
 [2024.02.04-16.00.19:569][571]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2024.02.04-16.10.18:161][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2024.02.04-16.10.18:164][434]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Test' took 0.034
+[2024.02.04-16.17.43:529][299]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-16.17.43:540][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-16.17.43:540][299]PIE: New page: PIE session: Test (4 Feb 2024, 16:17:43)
+[2024.02.04-16.17.43:540][299]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Test
+[2024.02.04-16.17.43:542][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002162s)
+[2024.02.04-16.17.43:542][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test.Test to /Game/Level/UEDPIE_0_Test.Test (0.002203s)
+[2024.02.04-16.17.43:568][299]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.02.04-16.17.43:570][299]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.17.43:570][299]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-16.17.43:571][299]LogAIModule: Creating AISystem for world Test
+[2024.02.04-16.17.43:571][299]LogPlayLevel: PIE: World Init took: (0.001241s)
+[2024.02.04-16.17.43:571][299]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2024.02.04-16.17.43:571][299]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-16.17.43:571][299]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-16.17.43:571][299]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-16.17.43:571][299]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-16.17.43:571][299]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.04-16.17.43:571][299]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-16.17.43:571][299]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.04-16.17.43:571][299]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-16.17.43:572][299]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-16.17.43:572][299]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-16.17.43:572][299]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-16.17.43:574][299]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-16.17.43:608][299]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- Focusrite USB Audio)
+[2024.02.04-16.17.43:608][299]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-16.17.43:608][299]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-16.17.43:608][299]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-16.17.43:609][299]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2024.02.04-16.17.43:609][299]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2024.02.04-16.17.43:611][299]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2024.02.04-16.17.43:611][299]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2024.02.04-16.17.43:612][299]LogInit: FAudioDevice initialized with ID 49.
+[2024.02.04-16.17.43:612][299]LogAudio: Display: Audio Device (ID: 49) registered with world 'Test'.
+[2024.02.04-16.17.43:612][299]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 49
+[2024.02.04-16.17.43:615][299]LogLoad: Game class is 'GameMode_C'
+[2024.02.04-16.17.43:616][299]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2024.02.04-16.17.43
+[2024.02.04-16.17.43:616][299]LogWorld: Bringing up level for play took: 0.000871
+[2024.02.04-16.17.43:618][299]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2024.02.04-16.17.43:622][299]PIE: Server logged in
+[2024.02.04-16.17.43:622][299]PIE: Play in editor total start time 0.083 seconds.
+[2024.02.04-16.17.46:297][453]LogBlueprintUserMessages: [BP_Flashlight_C_1] Flashlight Collected
+[2024.02.04-16.18.02:238][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-16.18.02:238][198]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Test
+[2024.02.04-16.18.02:238][198]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-16.18.02:239][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.18.02:247][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-16.18.02:256][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.18.02:281][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-16.18.02:281][198]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 49
+[2024.02.04-16.18.02:281][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2024.02.04-16.18.02:283][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2024.02.04-16.18.02:291][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.02.04-16.18.02:345][199]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2024.02.04-16.18.49:993][100]Cmd: SELECT NONE
+[2024.02.04-16.18.51:222][184]Cmd: SELECT NONE
+[2024.02.04-16.18.55:204][502]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-16.18.55:215][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-16.18.55:215][502]PIE: New page: PIE session: Test (4 Feb 2024, 16:18:55)
+[2024.02.04-16.18.55:215][502]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Test
+[2024.02.04-16.18.55:218][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002392s)
+[2024.02.04-16.18.55:218][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test.Test to /Game/Level/UEDPIE_0_Test.Test (0.002442s)
+[2024.02.04-16.18.55:243][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.02.04-16.18.55:248][502]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.18.55:248][502]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-16.18.55:248][502]LogAIModule: Creating AISystem for world Test
+[2024.02.04-16.18.55:249][502]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2024.02.04-16.18.55:249][502]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2024.02.04-16.18.55:249][502]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-16.18.55:249][502]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-16.18.55:249][502]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-16.18.55:249][502]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-16.18.55:249][502]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.04-16.18.55:249][502]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-16.18.55:249][502]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.04-16.18.55:249][502]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-16.18.55:249][502]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-16.18.55:249][502]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-16.18.55:249][502]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-16.18.55:252][502]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-16.18.55:283][502]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- Focusrite USB Audio)
+[2024.02.04-16.18.55:283][502]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-16.18.55:283][502]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-16.18.55:283][502]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-16.18.55:284][502]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=50
+[2024.02.04-16.18.55:284][502]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=50
+[2024.02.04-16.18.55:287][502]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=50
+[2024.02.04-16.18.55:287][502]LogInit: FAudioDevice initialized with ID 50.
+[2024.02.04-16.18.55:287][502]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=50
+[2024.02.04-16.18.55:287][502]LogAudio: Display: Audio Device (ID: 50) registered with world 'Test'.
+[2024.02.04-16.18.55:287][502]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 50
+[2024.02.04-16.18.55:290][502]LogLoad: Game class is 'GameMode_C'
+[2024.02.04-16.18.55:291][502]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2024.02.04-16.18.55
+[2024.02.04-16.18.55:291][502]LogWorld: Bringing up level for play took: 0.000779
+[2024.02.04-16.18.55:293][502]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2024.02.04-16.18.55:296][502]PIE: Server logged in
+[2024.02.04-16.18.55:297][502]PIE: Play in editor total start time 0.082 seconds.
+[2024.02.04-16.18.57:258][621]LogBlueprintUserMessages: [BP_Flashlight_C_1] Flashlight Collected
+[2024.02.04-16.19.14:739][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-16.19.14:739][533]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Test
+[2024.02.04-16.19.14:739][533]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-16.19.14:740][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.19.14:748][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-16.19.14:755][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.19.14:780][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-16.19.14:780][533]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 50
+[2024.02.04-16.19.14:780][533]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2024.02.04-16.19.14:782][533]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2024.02.04-16.19.14:790][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.04-16.19.14:837][534]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2024.02.04-16.19.39:927][418]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-16.19.39:943][418]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.04-16.19.39:953][418]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2024.02.04-16.19.40:105][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.02.04-16.19.40:111][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 168 ms (1 blueprints)
+[2024.02.04-16.19.40:111][418]PIE: New page: PIE session: Test (4 Feb 2024, 16:19:40)
+[2024.02.04-16.19.40:111][418]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Test
+[2024.02.04-16.19.40:114][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002065s)
+[2024.02.04-16.19.40:114][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test.Test to /Game/Level/UEDPIE_0_Test.Test (0.002107s)
+[2024.02.04-16.19.40:134][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.02.04-16.19.40:135][418]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.19.40:135][418]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-16.19.40:136][418]LogAIModule: Creating AISystem for world Test
+[2024.02.04-16.19.40:136][418]LogPlayLevel: PIE: World Init took: (0.001184s)
+[2024.02.04-16.19.40:136][418]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2024.02.04-16.19.40:136][418]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-16.19.40:136][418]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-16.19.40:136][418]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-16.19.40:136][418]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-16.19.40:136][418]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.04-16.19.40:136][418]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-16.19.40:136][418]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.04-16.19.40:136][418]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-16.19.40:137][418]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-16.19.40:137][418]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-16.19.40:137][418]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-16.19.40:139][418]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-16.19.40:170][418]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- Focusrite USB Audio)
+[2024.02.04-16.19.40:171][418]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-16.19.40:171][418]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-16.19.40:171][418]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-16.19.40:172][418]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=51
+[2024.02.04-16.19.40:172][418]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=51
+[2024.02.04-16.19.40:174][418]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=51
+[2024.02.04-16.19.40:174][418]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=51
+[2024.02.04-16.19.40:174][418]LogInit: FAudioDevice initialized with ID 51.
+[2024.02.04-16.19.40:174][418]LogAudio: Display: Audio Device (ID: 51) registered with world 'Test'.
+[2024.02.04-16.19.40:174][418]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 51
+[2024.02.04-16.19.40:208][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-16.19.40:208][418]LogLoad: Game class is 'GameMode_C'
+[2024.02.04-16.19.40:209][418]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2024.02.04-16.19.40
+[2024.02.04-16.19.40:209][418]LogWorld: Bringing up level for play took: 0.000893
+[2024.02.04-16.19.40:212][418]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2024.02.04-16.19.40:217][418]PIE: Server logged in
+[2024.02.04-16.19.40:219][418]PIE: Play in editor total start time 0.276 seconds.
+[2024.02.04-16.19.40:314][418]LogViewport: Scene viewport resized to 1668x1033, mode Windowed.
+[2024.02.04-16.19.42:701][546]LogBlueprintUserMessages: [BP_Flashlight_C_1] Flashlight Collected
+[2024.02.04-16.19.49:748][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-16.19.49:748][966]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Test
+[2024.02.04-16.19.49:749][966]LogSlate: Window 'SlenderMan Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.02.04-16.19.49:757][966]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-16.19.49:757][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.19.49:760][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-16.19.49:766][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.19.49:790][966]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 51
+[2024.02.04-16.19.49:790][966]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2024.02.04-16.19.49:793][966]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2024.02.04-16.19.49:801][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.02.04-16.19.49:856][967]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2024.02.04-16.21.26:467][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.02.04-16.21.26:469][205]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Test' took 0.026
+[2024.02.04-16.21.26:470][205]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Player/BP_Player] ([2] browsable assets)...
+[2024.02.04-16.21.26:470][205]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/BP_Player]
+[2024.02.04-16.21.26:554][205]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/Player/BP_Player_Auto5
+[2024.02.04-16.21.26:554][205]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_Player_Auto510B7BB2547CF6BF842B831A69911B8AD.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Player/Player/BP_Player_Auto5.uasset'
+[2024.02.04-16.27.25:697][920]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.02.04-16.27.25:708][920]LogContentBrowser: Creating deferred item: NewFolder
+[2024.02.04-16.27.25:718][921]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.02.04-16.27.28:853][157]LogContentBrowser: Attempting asset rename: NewFolder -> Paged
+[2024.02.04-16.27.28:853][157]LogContentBrowser: End creating deferred item NewFolder
+[2024.02.04-16.27.33:095][471]LogContentBrowser: Attempting asset rename: Paged -> Pages
+[2024.02.04-16.27.46:692][299]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.02.04-16.27.46:704][299]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.02.04-16.27.46:711][299]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.02.04-16.27.46:737][301]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.02.04-16.27.53:147][780]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Page
+[2024.02.04-16.27.53:192][780]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.02.04-16.27.55:035][919]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.27.55:083][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/BP_Page" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset" SILENT=true
+[2024.02.04-16.27.55:101][919]LogSavePackage: Moving output files for package: /Game/Player/Pages/BP_Page
+[2024.02.04-16.27.55:101][919]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_Page5FFFC35249F04728700853A96024258F.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset'
+[2024.02.04-16.27.55:202][919]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 9.23 sec)
+[2024.02.04-16.27.55:202][919]AssetCheck: New page: Asset Save: BP_Page
+[2024.02.04-16.27.55:202][919]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Pages/BP_Page.BP_Page
+[2024.02.04-16.28.15:740][187]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/Pages/BP_Page.BP_Page
+[2024.02.04-16.28.15:740][187]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.28.15:740][187]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-16.28.16:806][187]LogViewport: Scene viewport resized to 1450x979, mode Windowed.
+[2024.02.04-16.28.18:408][250]LogViewport: Scene viewport resized to 1447x997, mode Windowed.
+[2024.02.04-16.28.18:541][252]LogViewport: Scene viewport resized to 444x228, mode Windowed.
+[2024.02.04-16.28.18:904][271]LogViewport: Scene viewport resized to 1450x979, mode Windowed.
+[2024.02.04-16.28.19:428][305]LogSlate: Window 'BP_Page' being destroyed
+[2024.02.04-16.28.43:240][943]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.30.22:028][399]BlueprintLog: New page: Compile BP_Page
+[2024.02.04-16.30.22:089][399]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.02.04-16.30.22:554][421]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.30.22:611][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/BP_Page" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset" SILENT=true
+[2024.02.04-16.30.22:619][421]LogSavePackage: Moving output files for package: /Game/Player/Pages/BP_Page
+[2024.02.04-16.30.22:620][421]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_Page3A7A36C34DDB154CD2E559BE04EABF10.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset'
+[2024.02.04-16.30.22:633][421]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 9.31 sec)
+[2024.02.04-16.30.22:634][421]AssetCheck: New page: Asset Save: BP_Page
+[2024.02.04-16.30.22:634][421]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Pages/BP_Page.BP_Page
+[2024.02.04-16.30.30:574][781]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-16.30.30:575][781]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-16.30.30:577][781]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_0
+[2024.02.04-16.30.30:579][781]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_0
+[2024.02.04-16.30.31:529][829]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-16.30.31:529][829]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-16.30.31:533][829]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_1
+[2024.02.04-16.30.31:534][829]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_1
+[2024.02.04-16.30.47:616][844]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.02.04-16.30.53:881][244]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2024.02.04-16.30.53:912][244]LogContentBrowser: Creating deferred item: NewInterface
+[2024.02.04-16.30.53:925][245]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2024.02.04-16.30.58:855][602]LogContentBrowser: Attempting asset rename: NewInterface -> BPI_Page
+[2024.02.04-16.30.58:862][602]LogContentBrowser: End creating deferred item NewInterface
+[2024.02.04-16.31.00:048][686]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/Pages/BPI_Page.BPI_Page
+[2024.02.04-16.31.00:048][686]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.31.00:048][686]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-16.31.09:857][823]BlueprintLog: New page: Compile BPI_Page
+[2024.02.04-16.31.09:899][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.02.04-16.31.10:366][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.31.10:407][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/BPI_Page" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BPI_Page.uasset" SILENT=true
+[2024.02.04-16.31.10:534][876]LogSavePackage: Moving output files for package: /Game/Player/Pages/BPI_Page
+[2024.02.04-16.31.10:534][876]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BPI_PageC9C444A7490C1E50751B799148E4384B.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BPI_Page.uasset'
+[2024.02.04-16.31.10:546][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 9.49 sec)
+[2024.02.04-16.31.10:547][876]AssetCheck: New page: Asset Save: BPI_Page
+[2024.02.04-16.31.10:547][876]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Pages/BPI_Page.BPI_Page
+[2024.02.04-16.31.31:048][743]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-16.31.31:048][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.32.58:082][297]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.32.58:238][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/BP_Page" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset" SILENT=true
+[2024.02.04-16.32.58:246][297]LogSavePackage: Moving output files for package: /Game/Player/Pages/BP_Page
+[2024.02.04-16.32.58:247][297]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_PageF71B0DDC4625118E8CCDC68886058B63.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset'
+[2024.02.04-16.32.58:258][297]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 9.66 sec)
+[2024.02.04-16.32.58:259][297]AssetCheck: New page: Asset Save: BP_Page
+[2024.02.04-16.32.58:259][297]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Pages/BP_Page.BP_Page
+[2024.02.04-16.32.59:091][396]BlueprintLog: New page: Compile BP_Page
+[2024.02.04-16.32.59:150][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.02.04-16.32.59:918][459]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.33.00:072][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/BP_Page" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset" SILENT=true
+[2024.02.04-16.33.00:082][459]LogSavePackage: Moving output files for package: /Game/Player/Pages/BP_Page
+[2024.02.04-16.33.00:083][459]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_PageC8D0752B436F95EDF1FCBD8C0DAD29ED.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset'
+[2024.02.04-16.33.00:094][459]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 9.84 sec)
+[2024.02.04-16.33.00:095][459]AssetCheck: New page: Asset Save: BP_Page
+[2024.02.04-16.33.00:095][459]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Pages/BP_Page.BP_Page
+[2024.02.04-16.33.05:517][816]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/Flashlight/BP_Flashlight.BP_Flashlight
+[2024.02.04-16.33.05:517][816]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.33.05:517][816]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-16.33.20:588][373]BlueprintLog: New page: Compile BP_Flashlight
+[2024.02.04-16.33.20:651][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.02.04-16.33.21:303][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.33.21:458][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Flashlight/BP_Flashlight" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Flashlight/BP_Flashlight.uasset" SILENT=true
+[2024.02.04-16.33.21:467][436]LogSavePackage: Moving output files for package: /Game/Player/Flashlight/BP_Flashlight
+[2024.02.04-16.33.21:468][436]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_Flashlight3B9D24C04FA1923F5CD91CB6FD322595.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Flashlight/BP_Flashlight.uasset'
+[2024.02.04-16.33.21:478][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 10.0 sec)
+[2024.02.04-16.33.21:480][436]AssetCheck: New page: Asset Save: BP_Flashlight
+[2024.02.04-16.33.21:480][436]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Flashlight/BP_Flashlight.BP_Flashlight
+[2024.02.04-16.33.31:057][394]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-16.33.31:190][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-16.33.31:190][394]PIE: New page: PIE session: Test (4 Feb 2024, 16:33:31)
+[2024.02.04-16.33.31:218][394]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Test
+[2024.02.04-16.33.31:220][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002476s)
+[2024.02.04-16.33.31:220][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test.Test to /Game/Level/UEDPIE_0_Test.Test (0.002534s)
+[2024.02.04-16.33.31:259][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.02.04-16.33.31:260][394]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.33.31:260][394]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-16.33.31:261][394]LogAIModule: Creating AISystem for world Test
+[2024.02.04-16.33.31:262][394]LogPlayLevel: PIE: World Init took: (0.001261s)
+[2024.02.04-16.33.31:262][394]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2024.02.04-16.33.31:262][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-16.33.31:262][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-16.33.31:262][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-16.33.31:262][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-16.33.31:262][394]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.04-16.33.31:262][394]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-16.33.31:262][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.04-16.33.31:262][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-16.33.31:262][394]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-16.33.31:262][394]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-16.33.31:262][394]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-16.33.31:265][394]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-16.33.31:297][394]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- Focusrite USB Audio)
+[2024.02.04-16.33.31:298][394]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-16.33.31:298][394]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-16.33.31:298][394]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-16.33.31:299][394]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2024.02.04-16.33.31:299][394]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2024.02.04-16.33.31:302][394]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2024.02.04-16.33.31:302][394]LogInit: FAudioDevice initialized with ID 52.
+[2024.02.04-16.33.31:302][394]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2024.02.04-16.33.31:302][394]LogAudio: Display: Audio Device (ID: 52) registered with world 'Test'.
+[2024.02.04-16.33.31:302][394]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 52
+[2024.02.04-16.33.31:305][394]LogLoad: Game class is 'GameMode_C'
+[2024.02.04-16.33.31:306][394]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2024.02.04-16.33.31
+[2024.02.04-16.33.31:306][394]LogWorld: Bringing up level for play took: 0.000939
+[2024.02.04-16.33.31:308][394]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2024.02.04-16.33.31:311][394]PIE: Server logged in
+[2024.02.04-16.33.31:312][394]PIE: Play in editor total start time 0.122 seconds.
+[2024.02.04-16.33.40:068][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-16.33.40:068][950]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Test
+[2024.02.04-16.33.40:068][950]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-16.33.40:069][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.33.40:077][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-16.33.40:083][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.33.40:113][950]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.04-16.33.40:114][950]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 52
+[2024.02.04-16.33.40:114][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2024.02.04-16.33.40:116][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2024.02.04-16.33.40:121][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-16.33.40:124][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.02.04-16.33.40:291][951]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2024.02.04-16.36.00:286][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.02.04-16.36.00:290][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Test" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Level/Test_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.02.04-16.36.00:331][279]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/Test_Auto5
+[2024.02.04-16.36.00:332][279]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Test_Auto5F1007F124F5C6753BE52439A1D1F5A2E.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Level/Test_Auto5.umap'
+[2024.02.04-16.36.00:335][279]LogAssetRegistry: Warning: ScanPathsSynchronous: Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Level/Test_Auto5.umap is in the /Temp path, will not scan.
+[2024.02.04-16.36.00:335][279]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Test' took 0.088
+[2024.02.04-16.36.00:335][279]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.088
+[2024.02.04-16.36.00:335][279]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Player/BP_Player] ([2] browsable assets)...
+[2024.02.04-16.36.00:335][279]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/BP_Player]
+[2024.02.04-16.36.00:412][279]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/Player/BP_Player_Auto5
+[2024.02.04-16.36.00:412][279]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_Player_Auto500CDD26A44082CF07B9A748707CF2E8D.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Player/Player/BP_Player_Auto5.uasset'
+[2024.02.04-16.36.56:531][910]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.02.04-16.36.56:531][910]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.02.04-16.37.46:139][862]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.02.04-16.46.01:149][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2024.02.04-16.46.01:151][189]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Test' took 0.042
+[2024.02.04-16.46.01:152][189]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Player/BP_Player] ([2] browsable assets)...
+[2024.02.04-16.46.01:152][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/BP_Player]
+[2024.02.04-16.46.01:201][189]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/Player/BP_Player_Auto5
+[2024.02.04-16.46.01:202][189]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_Player_Auto544B61E83467B655DCC32699F7AF97666.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Player/Player/BP_Player_Auto5.uasset'
+[2024.02.04-16.46.59:589][652]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameMode.GameMode
+[2024.02.04-16.46.59:590][652]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.46.59:590][652]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-16.47.11:189][  5]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-16.47.11:189][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.47.11:308][  5]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameMode.GameMode
+[2024.02.04-16.47.11:309][  5]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.47.11:309][  5]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-16.49.33:507][198]BlueprintLog: New page: Compile GameMode
+[2024.02.04-16.49.33:576][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.02.04-16.49.33:913][224]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.49.33:952][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameMode" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Blueprints/GameMode.uasset" SILENT=true
+[2024.02.04-16.49.33:960][224]LogSavePackage: Moving output files for package: /Game/Blueprints/GameMode
+[2024.02.04-16.49.33:961][224]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/GameMode51E4794B428074D1BB9632A55C328A89.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Blueprints/GameMode.uasset'
+[2024.02.04-16.49.33:972][224]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 10.0 sec)
+[2024.02.04-16.49.33:974][224]AssetCheck: New page: Asset Save: GameMode
+[2024.02.04-16.49.33:974][224]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/GameMode.GameMode
+[2024.02.04-16.49.53:455][466]BlueprintLog: New page: Compile GameMode
+[2024.02.04-16.49.53:519][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.02.04-16.49.54:073][516]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.49.54:113][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameMode" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Blueprints/GameMode.uasset" SILENT=true
+[2024.02.04-16.49.54:122][516]LogSavePackage: Moving output files for package: /Game/Blueprints/GameMode
+[2024.02.04-16.49.54:122][516]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/GameMode3613D5794AF8990CE1CFC5A899461908.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Blueprints/GameMode.uasset'
+[2024.02.04-16.49.54:132][516]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 10.1 sec)
+[2024.02.04-16.49.54:133][516]AssetCheck: New page: Asset Save: GameMode
+[2024.02.04-16.49.54:134][516]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/GameMode.GameMode
+[2024.02.04-16.50.24:229][767]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetSystemLibrary::PrintString' [The specified module could not be found.]
+[2024.02.04-16.50.35:753][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.50.35:794][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameMode" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Blueprints/GameMode.uasset" SILENT=true
+[2024.02.04-16.50.36:112][ 14]LogSavePackage: Moving output files for package: /Game/Blueprints/GameMode
+[2024.02.04-16.50.36:112][ 14]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/GameModeE55E13984142E52C69DF6194EAD95809.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Blueprints/GameMode.uasset'
+[2024.02.04-16.50.36:124][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave took 369 ms (total: 10.5 sec)
+[2024.02.04-16.50.36:125][ 14]AssetCheck: New page: Asset Save: GameMode
+[2024.02.04-16.50.36:125][ 14]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/GameMode.GameMode
+[2024.02.04-16.50.36:611][ 72]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-16.50.36:622][ 72]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.04-16.50.36:624][ 72]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2024.02.04-16.50.36:738][ 72]LogPlayLevel: [PlayLevel] Compiling GameMode before play...
+[2024.02.04-16.50.36:816][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.02.04-16.50.36:818][ 72]LogPlayLevel: PlayLevel: Blueprint regeneration took 195 ms (2 blueprints)
+[2024.02.04-16.50.36:818][ 72]PIE: New page: PIE session: Test (4 Feb 2024, 16:50:36)
+[2024.02.04-16.50.36:818][ 72]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Test
+[2024.02.04-16.50.36:821][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002534s)
+[2024.02.04-16.50.36:821][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test.Test to /Game/Level/UEDPIE_0_Test.Test (0.002577s)
+[2024.02.04-16.50.36:862][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.02.04-16.50.36:863][ 72]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.50.36:864][ 72]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-16.50.36:864][ 72]LogAIModule: Creating AISystem for world Test
+[2024.02.04-16.50.36:864][ 72]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2024.02.04-16.50.36:865][ 72]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2024.02.04-16.50.36:865][ 72]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-16.50.36:865][ 72]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-16.50.36:865][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-16.50.36:865][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-16.50.36:865][ 72]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.04-16.50.36:865][ 72]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-16.50.36:865][ 72]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.04-16.50.36:865][ 72]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-16.50.36:865][ 72]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-16.50.36:865][ 72]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-16.50.36:865][ 72]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-16.50.36:868][ 72]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-16.50.36:901][ 72]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- Focusrite USB Audio)
+[2024.02.04-16.50.36:902][ 72]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-16.50.36:902][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-16.50.36:902][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-16.50.36:903][ 72]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=53
+[2024.02.04-16.50.36:903][ 72]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=53
+[2024.02.04-16.50.36:906][ 72]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=53
+[2024.02.04-16.50.36:906][ 72]LogInit: FAudioDevice initialized with ID 53.
+[2024.02.04-16.50.36:906][ 72]LogAudio: Display: Audio Device (ID: 53) registered with world 'Test'.
+[2024.02.04-16.50.36:906][ 72]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=53
+[2024.02.04-16.50.36:906][ 72]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 53
+[2024.02.04-16.50.36:938][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-16.50.36:938][ 72]LogLoad: Game class is 'GameMode_C'
+[2024.02.04-16.50.36:939][ 72]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2024.02.04-16.50.36
+[2024.02.04-16.50.36:939][ 72]LogWorld: Bringing up level for play took: 0.000924
+[2024.02.04-16.50.36:943][ 72]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2024.02.04-16.50.36:969][ 72]LogBlueprintUserMessages: [GameMode_C_0] 1
+[2024.02.04-16.50.36:972][ 72]PIE: Server logged in
+[2024.02.04-16.50.36:972][ 72]PIE: Play in editor total start time 0.35 seconds.
+[2024.02.04-16.50.37:010][ 72]LogViewport: Scene viewport resized to 1668x1033, mode Windowed.
+[2024.02.04-16.50.42:448][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-16.50.42:448][393]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Test
+[2024.02.04-16.50.42:449][393]LogSlate: Window 'SlenderMan Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.02.04-16.50.42:455][393]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-16.50.42:456][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.50.42:463][393]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-16.50.42:469][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.50.42:511][393]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 53
+[2024.02.04-16.50.42:511][393]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2024.02.04-16.50.42:513][393]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2024.02.04-16.50.42:522][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.02.04-16.50.42:576][394]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2024.02.04-16.51.22:590][148]LogDerivedDataCache: C:/Users/Callum/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.179 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 567 files in 1038 folders with total size 11 MiB.
+[2024.02.04-16.52.42:397][820]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.52.42:560][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/BP_Page" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset" SILENT=true
+[2024.02.04-16.52.42:571][820]LogSavePackage: Moving output files for package: /Game/Player/Pages/BP_Page
+[2024.02.04-16.52.42:593][820]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_PageC25385DC46191D236A02FDBB0CC4BEA1.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset'
+[2024.02.04-16.52.42:604][820]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 10.7 sec)
+[2024.02.04-16.52.42:605][820]AssetCheck: New page: Asset Save: BP_Page
+[2024.02.04-16.52.42:605][820]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Pages/BP_Page.BP_Page
+[2024.02.04-16.53.30:054][378]BlueprintLog: New page: Compile BP_Page
+[2024.02.04-16.53.30:155][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2024.02.04-16.53.33:862][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.53.34:019][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/BP_Page" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset" SILENT=true
+[2024.02.04-16.53.34:031][603]LogSavePackage: Moving output files for package: /Game/Player/Pages/BP_Page
+[2024.02.04-16.53.34:032][603]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_Page4FD0EFDC454D07955DE815B844DD586D.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset'
+[2024.02.04-16.53.34:043][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 10.8 sec)
+[2024.02.04-16.53.34:044][603]AssetCheck: New page: Asset Save: BP_Page
+[2024.02.04-16.53.34:044][603]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Pages/BP_Page.BP_Page
+[2024.02.04-16.55.16:161][632]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-16.55.16:161][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.56.03:929][868]BlueprintLog: New page: Compile GameMode
+[2024.02.04-16.56.03:987][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.02.04-16.56.04:477][915]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.56.04:516][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameMode" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Blueprints/GameMode.uasset" SILENT=true
+[2024.02.04-16.56.04:526][915]LogSavePackage: Moving output files for package: /Game/Blueprints/GameMode
+[2024.02.04-16.56.04:527][915]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/GameMode05D62CCE4B58420C1761CEA05E340069.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Blueprints/GameMode.uasset'
+[2024.02.04-16.56.04:567][915]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 10.9 sec)
+[2024.02.04-16.56.04:568][915]AssetCheck: New page: Asset Save: GameMode
+[2024.02.04-16.56.04:569][915]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/GameMode.GameMode
+[2024.02.04-16.57.04:081][142]BlueprintLog: New page: Compile BP_Page
+[2024.02.04-16.57.04:157][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.02.04-16.57.04:895][191]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.57.05:052][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/BP_Page" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset" SILENT=true
+[2024.02.04-16.57.05:081][191]LogSavePackage: Moving output files for package: /Game/Player/Pages/BP_Page
+[2024.02.04-16.57.05:099][191]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_PageC214F35F4E3CFEC8E0CEAA8C3F3D037B.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset'
+[2024.02.04-16.57.05:142][191]LogFileHelpers: InternalPromptForCheckoutAndSave took 246 ms (total: 11.2 sec)
+[2024.02.04-16.57.05:144][191]AssetCheck: New page: Asset Save: BP_Page
+[2024.02.04-16.57.05:144][191]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Pages/BP_Page.BP_Page
+[2024.02.04-16.58.02:764][ 51]BlueprintLog: New page: Compile BP_Page
+[2024.02.04-16.58.02:829][ 51]LogBlueprint: Error: [AssetLog] Z:\Development\Games\SlenderMan\GameFiles\SlenderMan\Content\Player\Pages\BP_Page.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2024.02.04-16.58.02:928][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.02.04-16.58.03:395][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-16.58.03:544][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/BP_Page" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset" SILENT=true
+[2024.02.04-16.58.03:559][ 79]LogSavePackage: Moving output files for package: /Game/Player/Pages/BP_Page
+[2024.02.04-16.58.03:560][ 79]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_PageED1DF7994CD17F62EF1E8388116833A3.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset'
+[2024.02.04-16.58.03:572][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 11.4 sec)
+[2024.02.04-16.58.03:574][ 79]AssetCheck: New page: Asset Save: BP_Page
+[2024.02.04-16.58.03:575][ 79]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Pages/BP_Page.BP_Page
+[2024.02.04-16.58.36:154][421]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2024.02.04-16.58.36:159][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Test" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Level/Test_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.02.04-16.58.36:281][421]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/Test_Auto5
+[2024.02.04-16.58.36:282][421]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Test_Auto5556C3C164038BC0C1632AEB0D377ACA7.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Level/Test_Auto5.umap'
+[2024.02.04-16.58.36:285][421]LogAssetRegistry: Warning: ScanPathsSynchronous: Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Level/Test_Auto5.umap is in the /Temp path, will not scan.
+[2024.02.04-16.58.36:286][421]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Test' took 0.170
+[2024.02.04-16.58.36:286][421]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.170
+[2024.02.04-16.58.41:114][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.02.04-16.58.47:139][734]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.04-16.59.01:291][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.02.04-16.59.18:742][274]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.04-16.59.19:000][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.02.04-16.59.19:001][274]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-16.59.19:001][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.59.19:127][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.02.04-16.59.19:127][274]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-16.59.19:127][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-16.59.19:208][274]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Player/Pages/BPI_Page.BPI_Page
+	Asset Type: Blueprint
+[2024.02.04-16.59.19:732][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.02.04-16.59.19:768][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2024.02.04-16.59.19:792][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.02.04-16.59.21:330][351]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/Pages/BP_Page.BP_Page
+[2024.02.04-16.59.21:330][351]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-16.59.21:330][351]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-16.59.29:019][864]LogViewport: Scene viewport resized to 1450x979, mode Windowed.
+[2024.02.04-17.00.11:935][494]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2024.02.04-17.00.11:946][494]LogContentBrowser: Creating deferred item: NewInterface
+[2024.02.04-17.00.11:956][495]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2024.02.04-17.00.16:382][830]LogContentBrowser: Attempting asset rename: NewInterface -> BPI_Page
+[2024.02.04-17.00.16:389][830]LogContentBrowser: End creating deferred item NewInterface
+[2024.02.04-17.00.17:735][930]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/Pages/BPI_Page.BPI_Page
+[2024.02.04-17.00.17:735][930]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-17.00.17:735][930]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-17.00.47:179][203]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.02.04-17.00.47:191][203]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.02.04-17.00.47:198][203]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.02.04-17.00.47:246][204]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.02.04-17.00.55:980][861]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> PageCounter
+[2024.02.04-17.00.56:007][861]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.02.04-17.01.12:470][589]LogContentBrowser: Attempting asset rename: PageCounter -> PageWidget
+[2024.02.04-17.01.12:523][589]LogMetaData: Removing '/Game/Player/Pages/PageWidget.SKEL_PageWidget_C' ref from Metadata '/Game/Player/Pages/PageCounter.PackageMetaData'
+[2024.02.04-17.01.12:523][589]LogMetaData: Removing '/Game/Player/Pages/PageWidget.PageWidget_C' ref from Metadata '/Game/Player/Pages/PageCounter.PackageMetaData'
+[2024.02.04-17.01.12:523][589]LogMetaData: Removing '/Game/Player/Pages/PageWidget.PageWidget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Player/Pages/PageCounter.PackageMetaData'
+[2024.02.04-17.01.12:523][589]LogMetaData: Removing '/Game/Player/Pages/PageWidget.PageWidget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Player/Pages/PageCounter.PackageMetaData'
+[2024.02.04-17.01.12:523][589]LogMetaData: Removing '/Game/Player/Pages/PageWidget.PageWidget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Player/Pages/PageCounter.PackageMetaData'
+[2024.02.04-17.01.12:527][589]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-17.01.12:576][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/PageWidget" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset" SILENT=true
+[2024.02.04-17.01.12:898][589]LogSavePackage: Moving output files for package: /Game/Player/Pages/PageWidget
+[2024.02.04-17.01.12:898][589]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/PageWidgetB97AE7254BCE1634AC50D8A43B595C14.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset'
+[2024.02.04-17.01.12:916][589]LogFileHelpers: InternalPromptForCheckoutAndSave took 389 ms (total: 11.8 sec)
+[2024.02.04-17.01.12:972][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.02.04-17.01.13:006][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.02.04-17.01.13:038][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.02.04-17.01.13:041][589]AssetCheck: New page: Asset Save: PageWidget
+[2024.02.04-17.01.13:041][589]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player/Pages/PageWidget.PageWidget
+[2024.02.04-17.01.42:090][146]LogSlate: Window 'Message' being destroyed
+[2024.02.04-17.01.42:095][146]Message dialog closed, result: Yes, title: Message, text: Would you like to transfer the interface functions to be part of your blueprint?
+[2024.02.04-17.01.55:305][446]BlueprintLog: New page: Compile BP_Page
+[2024.02.04-17.01.55:371][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.02.04-17.01.56:160][502]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-17.01.56:300][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/BP_Page" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset" SILENT=true
+[2024.02.04-17.01.56:315][502]LogSavePackage: Moving output files for package: /Game/Player/Pages/BP_Page
+[2024.02.04-17.01.56:327][502]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_Page0A386AE9496F2F97B6E7F89F4AB48C6A.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/BP_Page.uasset'
+[2024.02.04-17.01.56:337][502]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 11.9 sec)
+[2024.02.04-17.01.56:339][502]AssetCheck: New page: Asset Save: BP_Page
+[2024.02.04-17.01.56:339][502]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Pages/BP_Page.BP_Page
+[2024.02.04-17.01.59:381][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.02.04-17.02.01:174][743]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.04-17.02.01:304][743]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-17.02.01:304][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-17.02.01:347][743]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Player/Pages/BPI_Page.BPI_Page
+	Asset Type: Blueprint
+[2024.02.04-17.02.01:757][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.02.04-17.02.01:793][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.02.04-17.02.01:826][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.02.04-17.02.15:360][280]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Player/Pages/PageWidget.PageWidget
+[2024.02.04-17.02.15:408][280]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-17.02.15:408][280]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-17.02.15:418][280]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-17.02.15:418][280]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-17.02.15:436][280]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.02.04-17.02.16:715][280]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.02.04-17.02.16:735][280]LogSlate: Took 0.018873 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.02.04-17.02.19:945][340]LogSlate: Window 'PageWidget' being destroyed
+[2024.02.04-17.04.24:066][540]LogEditorTransaction: Undo Move Anchor
+[2024.02.04-17.06.05:898][482]BlueprintLog: New page: Compile PageWidget
+[2024.02.04-17.06.06:045][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.02.04-17.06.06:315][482]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-17.06.06:359][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/PageWidget" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset" SILENT=true
+[2024.02.04-17.06.06:366][482]LogSavePackage: Moving output files for package: /Game/Player/Pages/PageWidget
+[2024.02.04-17.06.06:367][482]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/PageWidget2C1B2B20494F90AC47ACF8BE7A6A186E.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset'
+[2024.02.04-17.06.06:380][482]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 12.0 sec)
+[2024.02.04-17.06.06:439][482]AssetCheck: New page: Asset Save: PageWidget
+[2024.02.04-17.06.06:439][482]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player/Pages/PageWidget.PageWidget
+[2024.02.04-17.06.07:230][531]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-17.06.07:285][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/PageWidget" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset" SILENT=true
+[2024.02.04-17.06.07:292][531]LogSavePackage: Moving output files for package: /Game/Player/Pages/PageWidget
+[2024.02.04-17.06.07:293][531]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/PageWidget40A2D4E24BF880B2C50DDC84F1A782BC.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset'
+[2024.02.04-17.06.07:304][531]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 12.1 sec)
+[2024.02.04-17.06.07:306][531]AssetCheck: New page: Asset Save: PageWidget
+[2024.02.04-17.06.07:306][531]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player/Pages/PageWidget.PageWidget
+[2024.02.04-17.07.32:436][622]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-17.07.32:481][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/PageWidget" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset" SILENT=true
+[2024.02.04-17.07.32:490][622]LogSavePackage: Moving output files for package: /Game/Player/Pages/PageWidget
+[2024.02.04-17.07.32:491][622]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/PageWidgetA527FDFB444853593E763B8C9494A674.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset'
+[2024.02.04-17.07.32:503][622]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 12.1 sec)
+[2024.02.04-17.07.32:505][622]AssetCheck: New page: Asset Save: PageWidget
+[2024.02.04-17.07.32:505][622]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player/Pages/PageWidget.PageWidget
+[2024.02.04-17.07.33:619][755]BlueprintLog: New page: Compile PageWidget
+[2024.02.04-17.07.33:671][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.02.04-17.09.31:363][426]BlueprintLog: New page: Compile PageWidget
+[2024.02.04-17.09.31:462][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.02.04-17.09.31:943][465]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-17.09.32:002][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/PageWidget" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset" SILENT=true
+[2024.02.04-17.09.32:015][465]LogSavePackage: Moving output files for package: /Game/Player/Pages/PageWidget
+[2024.02.04-17.09.32:016][465]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/PageWidget0590B4A5437D4F3C62959EAE7C3784F8.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset'
+[2024.02.04-17.09.32:030][465]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 12.2 sec)
+[2024.02.04-17.09.32:032][465]AssetCheck: New page: Asset Save: PageWidget
+[2024.02.04-17.09.32:032][465]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player/Pages/PageWidget.PageWidget
+[2024.02.04-17.12.44:957][107]BlueprintLog: New page: Compile PageWidget
+[2024.02.04-17.12.45:043][107]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.02.04-17.12.46:357][174]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-17.12.46:412][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/PageWidget" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset" SILENT=true
+[2024.02.04-17.12.46:431][174]LogSavePackage: Moving output files for package: /Game/Player/Pages/PageWidget
+[2024.02.04-17.12.46:432][174]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/PageWidget586619454091043E83D256B1AE004868.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset'
+[2024.02.04-17.12.46:443][174]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 12.3 sec)
+[2024.02.04-17.12.46:445][174]AssetCheck: New page: Asset Save: PageWidget
+[2024.02.04-17.12.46:445][174]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player/Pages/PageWidget.PageWidget
+[2024.02.04-17.14.15:329][340]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-17.14.15:374][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/PageWidget" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset" SILENT=true
+[2024.02.04-17.14.15:703][340]LogSavePackage: Moving output files for package: /Game/Player/Pages/PageWidget
+[2024.02.04-17.14.15:704][340]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/PageWidgetF706C237446709519DA672BD921E9C5E.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset'
+[2024.02.04-17.14.15:729][340]LogFileHelpers: InternalPromptForCheckoutAndSave took 399 ms (total: 12.7 sec)
+[2024.02.04-17.14.15:731][340]AssetCheck: New page: Asset Save: PageWidget
+[2024.02.04-17.14.15:731][340]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player/Pages/PageWidget.PageWidget
+[2024.02.04-17.14.17:037][486]BlueprintLog: New page: Compile PageWidget
+[2024.02.04-17.14.17:091][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.02.04-17.14.51:978][242]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-17.14.52:019][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/PageWidget" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset" SILENT=true
+[2024.02.04-17.14.52:042][242]LogSavePackage: Moving output files for package: /Game/Player/Pages/PageWidget
+[2024.02.04-17.14.52:043][242]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/PageWidget6E1166684B85BEBCAAC5788A65F2429D.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset'
+[2024.02.04-17.14.52:055][242]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 12.8 sec)
+[2024.02.04-17.14.52:057][242]AssetCheck: New page: Asset Save: PageWidget
+[2024.02.04-17.14.52:057][242]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player/Pages/PageWidget.PageWidget
+[2024.02.04-17.15.03:477][663]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-17.15.03:488][663]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.04-17.15.03:491][663]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2024.02.04-17.15.03:613][663]LogPlayLevel: [PlayLevel] Compiling PageWidget before play...
+[2024.02.04-17.15.03:712][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.02.04-17.15.03:715][663]LogPlayLevel: PlayLevel: Blueprint regeneration took 225 ms (2 blueprints)
+[2024.02.04-17.15.03:715][663]PIE: New page: PIE session: Test (4 Feb 2024, 17:15:03)
+[2024.02.04-17.15.03:715][663]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Test
+[2024.02.04-17.15.03:717][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002369s)
+[2024.02.04-17.15.03:717][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test.Test to /Game/Level/UEDPIE_0_Test.Test (0.002410s)
+[2024.02.04-17.15.03:748][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.02.04-17.15.03:750][663]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-17.15.03:750][663]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-17.15.03:750][663]LogAIModule: Creating AISystem for world Test
+[2024.02.04-17.15.03:751][663]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2024.02.04-17.15.03:751][663]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2024.02.04-17.15.03:751][663]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-17.15.03:751][663]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-17.15.03:751][663]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-17.15.03:751][663]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-17.15.03:751][663]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.04-17.15.03:751][663]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-17.15.03:751][663]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.04-17.15.03:751][663]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-17.15.03:752][663]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-17.15.03:752][663]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-17.15.03:752][663]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-17.15.03:754][663]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-17.15.03:786][663]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- Focusrite USB Audio)
+[2024.02.04-17.15.03:786][663]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-17.15.03:786][663]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-17.15.03:786][663]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-17.15.03:787][663]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2024.02.04-17.15.03:787][663]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2024.02.04-17.15.03:790][663]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2024.02.04-17.15.03:790][663]LogInit: FAudioDevice initialized with ID 54.
+[2024.02.04-17.15.03:790][663]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2024.02.04-17.15.03:790][663]LogAudio: Display: Audio Device (ID: 54) registered with world 'Test'.
+[2024.02.04-17.15.03:790][663]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 54
+[2024.02.04-17.15.03:822][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-17.15.03:822][663]LogLoad: Game class is 'GameMode_C'
+[2024.02.04-17.15.03:823][663]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2024.02.04-17.15.03
+[2024.02.04-17.15.03:823][663]LogWorld: Bringing up level for play took: 0.000924
+[2024.02.04-17.15.03:826][663]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2024.02.04-17.15.03:829][663]LogBlueprintUserMessages: [GameMode_C_0] 1
+[2024.02.04-17.15.03:832][663]PIE: Server logged in
+[2024.02.04-17.15.03:832][663]PIE: Play in editor total start time 0.344 seconds.
+[2024.02.04-17.15.03:876][663]LogViewport: Scene viewport resized to 1668x1033, mode Windowed.
+[2024.02.04-17.15.14:798][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-17.15.14:798][278]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Test
+[2024.02.04-17.15.14:799][278]LogSlate: Window 'SlenderMan Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.02.04-17.15.14:805][278]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-17.15.14:805][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-17.15.14:810][278]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-17.15.14:817][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-17.15.14:849][278]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 54
+[2024.02.04-17.15.14:849][278]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2024.02.04-17.15.14:851][278]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2024.02.04-17.15.14:860][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.02.04-17.15.15:019][279]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2024.02.04-17.15.41:201][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.02.04-17.15.41:502][585]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-17.15.44:086][747]Cmd: TRANSACTION UNDO
+[2024.02.04-17.15.44:086][747]LogEditorTransaction: Undo Move Elements
+[2024.02.04-17.15.46:654][883]Cmd: TRANSACTION UNDO
+[2024.02.04-17.15.46:654][883]LogEditorTransaction: Undo Move Node
+[2024.02.04-17.15.48:527][988]Cmd: TRANSACTION UNDO
+[2024.02.04-17.15.48:527][988]LogEditorTransaction: Undo Add Node
+[2024.02.04-17.16.16:874][388]BlueprintLog: New page: Compile PageWidget
+[2024.02.04-17.16.16:929][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.02.04-17.16.17:415][417]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-17.16.17:473][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Pages/PageWidget" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset" SILENT=true
+[2024.02.04-17.16.17:495][417]LogSavePackage: Moving output files for package: /Game/Player/Pages/PageWidget
+[2024.02.04-17.16.17:496][417]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/PageWidget639A372449FDFB0ED8E7198A9B50066E.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Player/Pages/PageWidget.uasset'
+[2024.02.04-17.16.17:509][417]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 12.9 sec)
+[2024.02.04-17.16.17:509][417]AssetCheck: New page: Asset Save: PageWidget
+[2024.02.04-17.16.17:510][417]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player/Pages/PageWidget.PageWidget
+[2024.02.04-17.16.24:385][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.02.04-17.16.25:519][106]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.04-17.16.25:591][106]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Player/Pages/BP_Page1.BP_Page1
+	Asset Type: Blueprint
+[2024.02.04-17.16.25:985][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.02.04-17.16.26:048][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.02.04-17.16.26:083][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.02.04-17.16.26:115][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.02.04-17.16.26:646][121]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-17.16.26:646][121]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-17.16.26:647][121]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_2
+[2024.02.04-17.16.26:649][121]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_2
+[2024.02.04-17.16.27:852][184]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-17.16.27:852][184]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-17.16.27:855][184]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_3
+[2024.02.04-17.16.27:857][184]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_3
+[2024.02.04-17.16.31:540][453]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-17.16.31:552][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-17.16.31:552][453]PIE: New page: PIE session: Test (4 Feb 2024, 17:16:31)
+[2024.02.04-17.16.31:598][453]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Test
+[2024.02.04-17.16.31:600][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002535s)
+[2024.02.04-17.16.31:600][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test.Test to /Game/Level/UEDPIE_0_Test.Test (0.002586s)
+[2024.02.04-17.16.31:629][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.02.04-17.16.31:634][453]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-17.16.31:634][453]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-17.16.31:635][453]LogAIModule: Creating AISystem for world Test
+[2024.02.04-17.16.31:635][453]LogPlayLevel: PIE: World Init took: (0.001282s)
+[2024.02.04-17.16.31:635][453]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2024.02.04-17.16.31:635][453]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-17.16.31:635][453]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-17.16.31:635][453]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-17.16.31:635][453]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-17.16.31:635][453]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.04-17.16.31:635][453]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-17.16.31:635][453]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.04-17.16.31:635][453]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-17.16.31:636][453]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-17.16.31:636][453]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-17.16.31:636][453]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-17.16.31:639][453]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-17.16.31:673][453]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- Focusrite USB Audio)
+[2024.02.04-17.16.31:673][453]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-17.16.31:673][453]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-17.16.31:673][453]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-17.16.31:674][453]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2024.02.04-17.16.31:674][453]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2024.02.04-17.16.31:677][453]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2024.02.04-17.16.31:677][453]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2024.02.04-17.16.31:677][453]LogInit: FAudioDevice initialized with ID 55.
+[2024.02.04-17.16.31:677][453]LogAudio: Display: Audio Device (ID: 55) registered with world 'Test'.
+[2024.02.04-17.16.31:677][453]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 55
+[2024.02.04-17.16.31:683][453]LogLoad: Game class is 'GameMode_C'
+[2024.02.04-17.16.31:685][453]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2024.02.04-17.16.31
+[2024.02.04-17.16.31:685][453]LogWorld: Bringing up level for play took: 0.001138
+[2024.02.04-17.16.31:688][453]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2024.02.04-17.16.31:690][453]LogBlueprintUserMessages: [GameMode_C_0] 2
+[2024.02.04-17.16.31:692][453]PIE: Server logged in
+[2024.02.04-17.16.31:693][453]PIE: Play in editor total start time 0.141 seconds.
+[2024.02.04-17.16.44:858][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-17.16.44:858][262]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Test
+[2024.02.04-17.16.44:858][262]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-17.16.44:859][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-17.16.44:865][262]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-17.16.44:870][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-17.16.44:899][262]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.04-17.16.44:899][262]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 55
+[2024.02.04-17.16.44:900][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2024.02.04-17.16.44:902][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2024.02.04-17.16.44:907][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-17.16.44:909][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.02.04-17.16.44:991][263]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2024.02.04-17.16.51:063][699]Cmd: TRANSACTION UNDO
+[2024.02.04-17.16.51:063][699]LogEditorTransaction: Undo Move Elements
+[2024.02.04-17.17.05:264][607]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-17.17.05:601][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-17.17.05:601][607]PIE: New page: PIE session: Test (4 Feb 2024, 17:17:05)
+[2024.02.04-17.17.05:638][607]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Test
+[2024.02.04-17.17.05:640][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002517s)
+[2024.02.04-17.17.05:640][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test.Test to /Game/Level/UEDPIE_0_Test.Test (0.002566s)
+[2024.02.04-17.17.05:667][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.04-17.17.05:671][607]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-17.17.05:672][607]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-17.17.05:672][607]LogAIModule: Creating AISystem for world Test
+[2024.02.04-17.17.05:673][607]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2024.02.04-17.17.05:673][607]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2024.02.04-17.17.05:673][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-17.17.05:673][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-17.17.05:673][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-17.17.05:673][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-17.17.05:673][607]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.04-17.17.05:673][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-17.17.05:673][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.04-17.17.05:673][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-17.17.05:673][607]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-17.17.05:673][607]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-17.17.05:673][607]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-17.17.05:675][607]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-17.17.05:705][607]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- Focusrite USB Audio)
+[2024.02.04-17.17.05:706][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-17.17.05:706][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-17.17.05:706][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-17.17.05:706][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2024.02.04-17.17.05:707][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2024.02.04-17.17.05:709][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2024.02.04-17.17.05:709][607]LogInit: FAudioDevice initialized with ID 56.
+[2024.02.04-17.17.05:709][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2024.02.04-17.17.05:709][607]LogAudio: Display: Audio Device (ID: 56) registered with world 'Test'.
+[2024.02.04-17.17.05:709][607]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 56
+[2024.02.04-17.17.05:712][607]LogLoad: Game class is 'GameMode_C'
+[2024.02.04-17.17.05:713][607]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2024.02.04-17.17.05
+[2024.02.04-17.17.05:713][607]LogWorld: Bringing up level for play took: 0.000965
+[2024.02.04-17.17.05:716][607]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2024.02.04-17.17.05:718][607]LogBlueprintUserMessages: [GameMode_C_0] 2
+[2024.02.04-17.17.05:720][607]PIE: Server logged in
+[2024.02.04-17.17.05:721][607]PIE: Play in editor total start time 0.121 seconds.
+[2024.02.04-17.17.15:459][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-17.17.15:459][216]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Test
+[2024.02.04-17.17.15:459][216]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-17.17.15:459][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-17.17.15:465][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-17.17.15:471][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-17.17.15:501][216]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.04-17.17.15:501][216]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 56
+[2024.02.04-17.17.15:501][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2024.02.04-17.17.15:503][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2024.02.04-17.17.15:508][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-17.17.15:511][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.02.04-17.17.15:594][217]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2024.02.04-17.17.16:715][282]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-17.17.16:715][282]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-17.17.16:717][282]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_4
+[2024.02.04-17.17.16:719][282]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_4
+[2024.02.04-17.17.18:347][370]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-17.17.18:348][370]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Pages/BP_Page.BP_Page_C
+[2024.02.04-17.17.18:351][370]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_5
+[2024.02.04-17.17.18:353][370]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Pages/BP_Page.BP_Page as actor: BP_Page_C /Game/Level/Test.Test:PersistentLevel.BP_Page_C_5
+[2024.02.04-17.17.20:752][544]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-17.17.20:764][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-17.17.20:764][544]PIE: New page: PIE session: Test (4 Feb 2024, 17:17:20)
+[2024.02.04-17.17.20:764][544]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Test
+[2024.02.04-17.17.20:767][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002918s)
+[2024.02.04-17.17.20:767][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test.Test to /Game/Level/UEDPIE_0_Test.Test (0.002966s)
+[2024.02.04-17.17.20:801][544]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.02.04-17.17.20:806][544]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-17.17.20:806][544]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-17.17.20:806][544]LogAIModule: Creating AISystem for world Test
+[2024.02.04-17.17.20:807][544]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2024.02.04-17.17.20:807][544]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2024.02.04-17.17.20:807][544]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-17.17.20:807][544]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-17.17.20:807][544]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-17.17.20:807][544]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-17.17.20:807][544]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.04-17.17.20:807][544]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-17.17.20:807][544]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.04-17.17.20:807][544]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-17.17.20:808][544]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-17.17.20:808][544]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-17.17.20:808][544]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-17.17.20:810][544]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-17.17.20:841][544]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- Focusrite USB Audio)
+[2024.02.04-17.17.20:842][544]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-17.17.20:842][544]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-17.17.20:842][544]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-17.17.20:843][544]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2024.02.04-17.17.20:843][544]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2024.02.04-17.17.20:845][544]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2024.02.04-17.17.20:845][544]LogInit: FAudioDevice initialized with ID 57.
+[2024.02.04-17.17.20:845][544]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2024.02.04-17.17.20:845][544]LogAudio: Display: Audio Device (ID: 57) registered with world 'Test'.
+[2024.02.04-17.17.20:845][544]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 57
+[2024.02.04-17.17.20:848][544]LogLoad: Game class is 'GameMode_C'
+[2024.02.04-17.17.20:850][544]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2024.02.04-17.17.20
+[2024.02.04-17.17.20:850][544]LogWorld: Bringing up level for play took: 0.001126
+[2024.02.04-17.17.20:853][544]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2024.02.04-17.17.20:855][544]LogBlueprintUserMessages: [GameMode_C_0] 3
+[2024.02.04-17.17.20:857][544]PIE: Server logged in
+[2024.02.04-17.17.20:858][544]PIE: Play in editor total start time 0.094 seconds.
+[2024.02.04-17.17.34:008][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-17.17.34:009][402]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Test
+[2024.02.04-17.17.34:009][402]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-17.17.34:009][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-17.17.34:018][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-17.17.34:024][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-17.17.34:054][402]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.04-17.17.34:054][402]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 57
+[2024.02.04-17.17.34:054][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2024.02.04-17.17.34:057][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2024.02.04-17.17.34:062][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-17.17.34:064][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.02.04-17.17.34:148][403]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2024.02.04-17.17.35:409][494]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-17.17.35:421][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-17.17.35:421][494]PIE: New page: PIE session: Test (4 Feb 2024, 17:17:35)
+[2024.02.04-17.17.35:448][494]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Test
+[2024.02.04-17.17.35:450][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002666s)
+[2024.02.04-17.17.35:450][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test.Test to /Game/Level/UEDPIE_0_Test.Test (0.002715s)
+[2024.02.04-17.17.35:478][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.04-17.17.35:481][494]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-17.17.35:482][494]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-17.17.35:482][494]LogAIModule: Creating AISystem for world Test
+[2024.02.04-17.17.35:483][494]LogPlayLevel: PIE: World Init took: (0.001216s)
+[2024.02.04-17.17.35:483][494]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2024.02.04-17.17.35:483][494]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-17.17.35:483][494]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-17.17.35:483][494]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-17.17.35:483][494]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-17.17.35:483][494]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.04-17.17.35:483][494]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-17.17.35:483][494]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.04-17.17.35:483][494]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-17.17.35:483][494]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-17.17.35:483][494]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-17.17.35:483][494]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-17.17.35:486][494]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-17.17.35:516][494]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- Focusrite USB Audio)
+[2024.02.04-17.17.35:516][494]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-17.17.35:516][494]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-17.17.35:516][494]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-17.17.35:517][494]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2024.02.04-17.17.35:517][494]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2024.02.04-17.17.35:519][494]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2024.02.04-17.17.35:520][494]LogInit: FAudioDevice initialized with ID 58.
+[2024.02.04-17.17.35:520][494]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2024.02.04-17.17.35:520][494]LogAudio: Display: Audio Device (ID: 58) registered with world 'Test'.
+[2024.02.04-17.17.35:520][494]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 58
+[2024.02.04-17.17.35:523][494]LogLoad: Game class is 'GameMode_C'
+[2024.02.04-17.17.35:524][494]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2024.02.04-17.17.35
+[2024.02.04-17.17.35:524][494]LogWorld: Bringing up level for play took: 0.001121
+[2024.02.04-17.17.35:527][494]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2024.02.04-17.17.35:529][494]LogBlueprintUserMessages: [GameMode_C_0] 3
+[2024.02.04-17.17.35:531][494]PIE: Server logged in
+[2024.02.04-17.17.35:532][494]PIE: Play in editor total start time 0.111 seconds.
+[2024.02.04-17.18.21:238][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-17.18.21:238][128]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Test
+[2024.02.04-17.18.21:239][128]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-17.18.21:239][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-17.18.21:251][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-17.18.21:263][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-17.18.21:297][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-17.18.21:298][128]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 58
+[2024.02.04-17.18.21:298][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2024.02.04-17.18.21:300][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2024.02.04-17.18.21:311][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.02.04-17.18.21:406][129]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2024.02.04-17.19.13:817][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.02.04-17.19.13:820][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Test" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Level/Test_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.02.04-17.19.13:852][713]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/Test_Auto5
+[2024.02.04-17.19.13:854][713]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Test_Auto5567A06674EC98B5300962B86C2CC1C7A.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Level/Test_Auto5.umap'
+[2024.02.04-17.19.13:857][713]LogAssetRegistry: Warning: ScanPathsSynchronous: Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Level/Test_Auto5.umap is in the /Temp path, will not scan.
+[2024.02.04-17.19.13:857][713]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Test' took 0.072
+[2024.02.04-17.19.13:857][713]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.072
+[2024.02.04-17.19.13:857][713]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Player/BP_Player] ([2] browsable assets)...
+[2024.02.04-17.19.13:857][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/BP_Player]
+[2024.02.04-17.19.13:904][713]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/Player/BP_Player_Auto5
+[2024.02.04-17.19.13:905][713]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/BP_Player_Auto5B37D3F51438C9F52F58B7CB9B380BBC2.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Autosaves/Game/Player/Player/BP_Player_Auto5.uasset'
+[2024.02.04-17.20.44:813][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-17.20.44:869][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Test" FILE="Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Level/Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.04-17.20.44:965][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.02.04-17.20.44:987][262]LogSavePackage: Moving output files for package: /Game/Level/Test
+[2024.02.04-17.20.44:988][262]LogSavePackage: Moving 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Saved/Test877CE7C84EE69E57697AB59742A18DA3.tmp' to 'Z:/Development/Games/SlenderMan/GameFiles/SlenderMan/Content/Level/Test.umap'
+[2024.02.04-17.20.44:999][262]LogFileHelpers: Saving map 'Test' took 0.131
+[2024.02.04-17.20.45:010][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms (total: 13.1 sec)
+[2024.02.04-17.20.45:012][262]AssetCheck: New page: Asset Save: Test
+[2024.02.04-17.20.45:012][262]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/Test.Test
